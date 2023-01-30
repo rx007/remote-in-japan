@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'sanitize'
+gem 'sanitize', '>= 6.0.1'
 gem "liquid-c"
 
 group :development, :test do
