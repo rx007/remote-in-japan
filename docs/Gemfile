@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 
 gem 'rake'
-gem 'sanitize'
+gem 'sanitize', '>= 6.0.0'
 gem "liquid-c"
 
 group :development, :test do
   gem 'pry'
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.19.0'
 end
 
 group :jekyll_plugins do
